@@ -12,8 +12,8 @@
   min-height: 55px;
   padding: 0 15px 15px;
 }
-.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus,.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:hover{
-  color: white;
+.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+  color: #FFF;
   background-color: #5E4485;
 }
 .navbar-inverse .navbar-nav li a {
@@ -32,8 +32,23 @@
   background-color: #5E4485;
   border: 2px solid FFF;
 }
+.container{
+  margin: 4% auto;
+}
+
+#icon {
+  max-width: 200px;
+  margin: 1% auto;
+}
+
 @media (max-width: 600px){
   .carousel-caption {
     display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+  h2 {
+    font-size: 1.7em;
   }
 }
